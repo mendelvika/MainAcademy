@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<hr>
+<table width="600">
+    <h1 align="center">Заполните форму</h1>
+    <form  action="index2.html" method="post">
+        <input placeholder="Введите имя" name="name" type="text" autocomplete="on" required>
+        <input placeholder="Введите фамилию" name="surname" type="text" autocomplete="on" required>
+<hr>
+        <p>Введите пароль<br><input type="password" name="pass" required></p>
+        <p>Повторите пароль<br><input type="password" name="passconfirm" required></p>
+<hr>
+        <p>Ваша страна<br>
+            <select>
+                <option name="country" value="страна1">Страна 1</option>
+                <option name="country" value="страна 2">Страна 2</option>
+                <option name="country" value="страна 3">Страна 3</option>
+                <option name="country" selected value="страна 4">Страна 4</option>
+            </select>
+        </p>
+        <p>Ваш город<br>
+             <select size="4">
+                <option  name="city" disabled>Выберите город</option>
+                <option  name="city" value="Киев">Киев</option>
+                <option  name="city" selected value="Одесса">Одесса</option>
+                <option  name="city" value="Львов">Львов</option>
+                <option  name="city" value="Харьков">Харьков</option>
+            </select>
+        </p>
+        <fieldset>
+            <legend>Что вы любите делать</legend>
+            <input type="checkbox" name="activities" value="sleep" checked>Спать<br>
+            <input type="checkbox" name="activities" value="eat">Кушать<br>
+            <input type="checkbox" name="activities" value="run">Бегать<br>
+            <input type="checkbox" name="activities" value="study">Учиться<br>
+            <input type="checkbox" name="activities" value="draw">Рисовать<br>
+            <input type="checkbox" name="activities" value="drink">Употреблять много алкоголя<br>
+        </fieldset>
+        <fieldset>
+            <legend>Вам есть 18?</legend>
+            <input name="age" value="yes" type="radio">Нет<br>
+            <input name="age" value="no" type="radio">Да<br>
+        </fieldset>
+<br>
+        <p><textarea  name="about" placeholder="кратко о себе" maxlength="100" required></textarea></p>
+<br>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </form>
+</table>
+</body>
+</html>
