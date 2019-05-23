@@ -1,0 +1,32 @@
+.block1, .block2{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+
+}
+.block1 button, .block2 button{
+    background-color: cornflowerblue;
+    padding: 14px;
+    color: #E6E6E6;
+}
+.block1{
+    text-align: right;
+}
+.centerblock{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid cornflowerblue;
+}
+.centerblock p{
+    background-color: bisque;
+}
+.centerblock p button{
+    padding: 5px;
+    text-decoration-color: #E6E6E6;
+    background-color: brown;
+    color: #E6E6E6;
+}
+.centerblock button{
+    background-color: white;
+    color: cornflowerblue;
+}
