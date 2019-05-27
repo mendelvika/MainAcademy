@@ -1,0 +1,24 @@
+﻿.container .column {
+    float:left;
+    width:16%;
+    padding:2%;
+}
+.container{
+    width:100%;
+    display:inline-block;
+}
+.container:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+    .container {
+        background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #eee), color-stop(20%, #eee), color-stop(20%, #ccc), color-stop(40%, #ccc), color-stop(40%, #eee), color-stop(60%, #eee), color-stop(60%, #ccc), color-stop(80%, #ccc), color-stop(80%, #eee), color-stop(100%, #eee) );
+        background-image: -webkit-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
+        background-image: -moz-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
+        background-image: -ms-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
+        background-image: -o-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
+    }
