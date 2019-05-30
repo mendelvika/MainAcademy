@@ -14,7 +14,7 @@
 }
 
 .sidebar {
-    margin: 40px;
+    margin: 40px 5px 0px 5px;
     padding: 15px;
     background-color: pink;
     width: 400px;
