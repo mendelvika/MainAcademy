@@ -1,12 +1,13 @@
-﻿.container .column {
-    float:left;
-    width:16%;
-    padding:2%;
-}
-.container{
+﻿.container{
     width:100%;
     display:inline-block;
 }
+.container .column {
+    float:left;
+    width:21%;
+    padding:2%;
+}
+
 .container:after {
     visibility: hidden;
     display: block;
@@ -15,10 +16,10 @@
     clear: both;
     height: 0;
 }
-    .container {
-        background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #eee), color-stop(20%, #eee), color-stop(20%, #ccc), color-stop(40%, #ccc), color-stop(40%, #eee), color-stop(60%, #eee), color-stop(60%, #ccc), color-stop(80%, #ccc), color-stop(80%, #eee), color-stop(100%, #eee) );
-        background-image: -webkit-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
-        background-image: -moz-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
-        background-image: -ms-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
-        background-image: -o-linear-gradient( left, #eee, #eee 20%, #ccc 20%, #ccc 40%, #eee 40%, #eee 60%, #ccc 60%, #ccc 80%, #eee 80%, #eee 100% );
-    }
+.container {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #eee), color-stop(25%, #eee), color-stop(25%, #ccc), color-stop(50%, #ccc), color-stop(50%, #eee), color-stop(75%, #eee), color-stop(75%, #ccc), color-stop(100%, #eee) );
+    background-image: -webkit-linear-gradient( left, #eee, #eee 25%, #ccc 25%, #ccc 50%, #eee 50%, #eee 75%, #ccc 75%, #eee 100% );
+    background-image: -moz-linear-gradient( left, #eee, #eee 25%, #ccc 25%, #ccc 50%, #eee 50%, #eee 75%, #ccc 75%, #eee 100% );
+    background-image: -ms-linear-gradient( left, #eee, #eee 25%, #ccc 25%, #ccc 50%, #eee 50%, #eee 75%, #ccc 75%, #eee 100% );
+    background-image: -o-linear-gradient( left, #eee, #eee 25%, #ccc 25%, #ccc 50%, #eee 50%, #eee 75%, #ccc 75%, #eee 100% );
+}
